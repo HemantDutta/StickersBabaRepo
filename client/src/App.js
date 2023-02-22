@@ -1,9 +1,9 @@
-import './App.css';
+
 
 function App() {
   return (
     <>
-      StickersBabaRepo
+      <h1 className="text-info">StickersBaba</h1>
     </>
   );
 }
