@@ -1,9 +1,10 @@
+import {PublicHome} from "./pages/PublicHome";
 
 
 function App() {
   return (
     <>
-      <h1 className="text-info">StickersBaba</h1>
+      <PublicHome/>
     </>
   );
 }
