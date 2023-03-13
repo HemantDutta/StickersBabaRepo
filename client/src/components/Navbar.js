@@ -12,7 +12,7 @@ export const Navbar  = () => {
             <div className="container">
               <div className="header-left">
                 <button className="mobile-menu-toggler">
-                  <span className="sr-only">Toggle mobile menu</span>
+                  
                   <i className="icon-bars" />
                 </button>
                 <a href="#" className="logo">
@@ -28,7 +28,7 @@ export const Navbar  = () => {
                   <a href="#" className="search-toggle" role="button"><i className="icon-search" /></a>
                   <form action="#" method="get">
                     <div className="header-search-wrapper search-wrapper-wide">
-                      <label htmlFor="q" className="sr-only">Search</label>
+                      
                       <input type="search" className="form-control" name="q" id="q" placeholder="Search product ..." required />
                       <button className="btn btn-primary" type="submit"><i className="icon-search" /></button>
                     </div>{/* End .header-search-wrapper */}
@@ -295,3 +295,4 @@ export const Navbar  = () => {
 
 );
 }
+export default Navbar;
