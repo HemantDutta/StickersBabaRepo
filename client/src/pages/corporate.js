@@ -3,8 +3,38 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 
 export function Corporate() {
   return (
-
-    <>
+  
+  <>
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"
+    rel="stylesheet"
+  />
+  <title>Softy Pinko - Bootstrap 4.0 Theme</title>
+  {/*
+SOFTY PINKO
+https://templatemo.com/tm-535-softy-pinko
+*/}
+  {/* Additional CSS Files */}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="assetsNGA/css/bootstrap.minNGA.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="assetsNGA/css/font-awesomeNGA.css"
+  />
+  <link rel="stylesheet" href="assetsNGA/css/templatemo-softy-pinkoNGA.css" />
+  {/* ***** Preloader Start ***** */}
+  {/* ***** Preloader End ***** */}
   {/* ***** Header Area Start ***** */}
   <header className="header-area header-sticky">
     <div className="container">
@@ -13,7 +43,7 @@ export function Corporate() {
           <nav className="main-nav">
             {/* ***** Logo Start ***** */}
             <a href="#" className="logo">
-              <img src="client/public/assestsNGA/assets/images/logo.png" alt="Softy Pinko" />
+              <img src="assetsNGA/images/logo.png" alt="Softy Pinko" />
             </a>
             {/* ***** Logo End ***** */}
             {/* ***** Menu Start ***** */}
@@ -24,13 +54,13 @@ export function Corporate() {
                 </a>
               </li>
               <li>
-                <a href="#features">About Us</a>
+                <a href="#features">About</a>
               </li>
               <li>
-                <a href="#work-process">Our Products</a>
+                <a href="#work-process">Work Process</a>
               </li>
               <li>
-                <a href="#testimonials">Our Clients</a>
+                <a href="#testimonials">Testimonials</a>
               </li>
               <li>
                 <a href="#pricing-plans">Pricing Tables</a>
@@ -60,12 +90,13 @@ export function Corporate() {
         <div className="row">
           <div className="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
             <h1>
-             <strong>We provide the best <br></br> Corporate Giftting ideas</strong>
-              
-             <p> to grow up your business and keep your customers and employes happy </p>
+              We provide the best <strong>strategy</strong>
+              <br />
+              to grow up your <strong>business</strong>
             </h1>
             <p>
-             Hum banate hai apke liye apke apno ke
+              Softy Pinko is a professional Bootstrap 4.0 theme designed by
+              Template Mo for your company at absolutely free of charge
             </p>
             <a href="#features" className="main-button-slider">
               Discover More
@@ -91,7 +122,7 @@ export function Corporate() {
               <div className="features-small-item">
                 <div className="icon">
                   <i>
-                    <img src="client/public/assestsNGA/assets/images/featured-item-01.png" alt="" />
+                    <img src="assetsNGA/images/featured-item-01.png" alt="" />
                   </i>
                 </div>
                 <h5 className="features-title">Modern Strategy</h5>
@@ -109,7 +140,7 @@ export function Corporate() {
               <div className="features-small-item">
                 <div className="icon">
                   <i>
-                    <img src="client/public/assestsNGA/assets/images/featured-item-01.png" alt="" />
+                    <img src="assetsNGA/images/featured-item-01.png" alt="" />
                   </i>
                 </div>
                 <h5 className="features-title">Best Relationship</h5>
@@ -125,7 +156,7 @@ export function Corporate() {
               <div className="features-small-item">
                 <div className="icon">
                   <i>
-                    <img src="client/public/assestsNGA/assets/images/featured-item-01.png" alt="" />
+                    <img src="assetsNGA/images/featured-item-01.png" alt="" />
                   </i>
                 </div>
                 <h5 className="features-title">Ultimate Marketing</h5>
@@ -150,7 +181,7 @@ export function Corporate() {
           data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
         >
           <img
-            src="client/public/assestsNGA/assets/images/left-image.png"
+            src="assetsNGA/images/left-image.png"
             className="rounded img-fluid d-block mx-auto"
             alt="App"
           />
@@ -202,7 +233,7 @@ export function Corporate() {
           data-scroll-reveal="enter right move 30px over 0.6s after 0.4s"
         >
           <img
-            src="client/public/assestsNGA/assets/images/right-image.png"
+            src="assetsNGA/images/right-image.png"
             className="rounded img-fluid d-block mx-auto"
             alt="App"
           />
@@ -231,7 +262,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="client/public/assestsNGA/assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Get Ideas</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -240,7 +271,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="client/public/assestsNGA/assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Sketch Up</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -249,7 +280,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="client/public/assestsNGA/assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Discuss</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -258,7 +289,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="client/public/assestsNGA/assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Revise</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -267,7 +298,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="client/public/assestsNGA/assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Approve</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -276,7 +307,7 @@ export function Corporate() {
           <div className="col-lg-2 col-md-3 col-sm-6 col-6">
             <a href="#" className="mini-box">
               <i>
-                <img src="assets/images/work-process-item-01.png" alt="" />
+                <img src="assetsNGA/images/work-process-item-01.png" alt="" />
               </i>
               <strong>Launch</strong>
               <span>Godard pabst prism fam cliche.</span>
@@ -314,7 +345,7 @@ export function Corporate() {
           <div className="team-item">
             <div className="team-content">
               <i>
-                <img src="assets/images/testimonial-icon.png" alt="" />
+                <img src="assetsNGA/images/testimonial-icon.png" alt="" />
               </i>
               <p>
                 Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis,
@@ -336,7 +367,7 @@ export function Corporate() {
           <div className="team-item">
             <div className="team-content">
               <i>
-                <img src="assets/images/testimonial-icon.png" alt="" />
+                <img src="assetsNGA/images/testimonial-icon.png" alt="" />
               </i>
               <p>
                 Integer molestie aliquam gravida. Nullam nec arcu finibus,
@@ -359,7 +390,7 @@ export function Corporate() {
           <div className="team-item">
             <div className="team-content">
               <i>
-                <img src="assets/images/testimonial-icon.png" alt="" />
+                <img src="assetsNGA/images/testimonial-icon.png" alt="" />
               </i>
               <p>
                 Quisque diam odio, maximus ac consectetur eu, auctor non lorem.
@@ -561,7 +592,7 @@ export function Corporate() {
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="blog-post-thumb">
             <div className="img">
-              <img src="assets/images/blog-item-01.png" alt="" />
+              <img src="assetsNGA/images/blog-item-01.png" alt="" />
             </div>
             <div className="blog-content">
               <h3>
@@ -581,7 +612,7 @@ export function Corporate() {
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="blog-post-thumb">
             <div className="img">
-              <img src="assets/images/blog-item-02.png" alt="" />
+              <img src="assetsNGA/images/blog-item-02.png" alt="" />
             </div>
             <div className="blog-content">
               <h3>
@@ -601,7 +632,7 @@ export function Corporate() {
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="blog-post-thumb">
             <div className="img">
-              <img src="assets/images/blog-item-03.png" alt="" />
+              <img src="assetsNGA/images/blog-item-03.png" alt="" />
             </div>
             <div className="blog-content">
               <h3>
@@ -769,6 +800,9 @@ export function Corporate() {
   {/* Plugins */}
   {/* Global Init */}
 </>
+
+
+
 
       );
 }
