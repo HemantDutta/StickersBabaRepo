@@ -4,7 +4,6 @@ import {Cssfile} from "../components/cssfile"
 import { Footer } from "../components/Footer";
 import { Mobile_menu } from "../components/Mobile_menu";
 import { Navbar } from "../components/Navbar";
-import { Newsletter } from "../components/Newsletter";
 export function Category() {
   return (
   

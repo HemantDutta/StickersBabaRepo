@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Mobile_menu } from "../components/Mobile_menu";
 import { Navbar } from "../components/Navbar";
-import { Newsletter } from "../components/Newsletter";
+
 export const PublicHome = () => {
   return (
     <div>
@@ -3158,7 +3158,7 @@ export const PublicHome = () => {
             </div>{/* End .container */}
           </div>{/* End .blog-posts */}
         </main>{/* End .main */}
-        <Newsletter/>
+        
         <Footer/>
         {/* End .footer */}
       </div>{/* End .page-wrapper */}
