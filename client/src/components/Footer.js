@@ -1,5 +1,6 @@
 export const Footer  = () => {
     return(
+      
         <>
         <div className="cta cta-horizontal cta-horizontal-box bg-primary">
             <div className="container">
